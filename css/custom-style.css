@@ -1,0 +1,126 @@
+img{
+    width: 25em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 10px 10px rgba(0,0,0,0.23);	 
+        }
+html {
+    background: url('images2/dulce.jpg')  no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-bacground-size:cover;
+    background-size:cover;
+    
+}
+                
+a {
+    color: rgb(0, 2, 1);
+    font-family: sans-serif, monospace;
+    text-align: center;
+    font-family: sans-serif, monospace;
+    
+}
+.nav-link {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+h1 {
+    color: rgb(0, 2, 1);
+    text-align: center;
+    font-family: sans-serif, monospace;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
+
+#ball{
+        border-radius:50%;
+        position: fixed;
+        width: 90px;
+        height: 90px;
+        top: 60%;
+        animation-name: jump;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        background-color:aquamarine;
+        animation-timing-function: linear;
+        }
+    
+    @keyframes jump{
+        50%{
+            top: 10%;
+        }
+    }
+    div{
+        text-align: center;
+    }
+label{
+        color: rgb(0, 2, 1);
+        font-size: 29px;
+        width: 68%;
+        text-align: center;
+        font-family: serif;
+        text-transform: capitalize;
+        margin-bottom: 5px;
+        margin:555px;
+    }
+input[type=email]{
+    width: 300px;
+    font-size: 15px;
+    padding: 0 20px;
+    line-height: 3;
+    border-width: 2px;
+    border-radius: 110px;
+}
+input[type=submit] {
+        width: 90px;
+        font-size: 15px;
+        padding: 0 20px;
+        line-height: 1;
+        border-width: 2px;
+        border-radius: 110px;
+        margin-top: 15px;
+    
+    }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    }
+    .flex-container{
+    width: 300px;
+    display: flex;
+    color: rgb(10, 12, 11);
+    
+    padding: 20px;
+    margin: 20px;
+    font-family: sans-serif, monospacee;
+    font-size: 23px;
+
+    }
+    .flex-container > div{
+        display: flex;
+        line-height: 20px;
+        width: 400px;
+        margin: 1px;
+        font-size: 23px;
+        
+    }
+    
